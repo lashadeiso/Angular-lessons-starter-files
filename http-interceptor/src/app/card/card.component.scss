@@ -1,0 +1,29 @@
+.card {
+  height: 350px;
+  width: 250px;
+  margin-bottom: 2vw;
+  border: 2px solid rgb(134, 129, 129);
+  border-radius: 10px;
+  box-sizing: border-box;
+  overflow: hidden !important;
+  .card-title {
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-bottom: 2px solid rgb(134, 129, 129);
+    background-color: rgb(226, 152, 220);
+  }
+  .card-img {
+    height: 100%;
+    width: 100%;
+
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

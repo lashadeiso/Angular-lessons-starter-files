@@ -1,0 +1,9 @@
+<!-- Naruto -->
+<div class="card-naruto">
+  <div class="card" *ngFor="let card of narutoList">
+    <app-card
+      [cardTitle]="card.title"
+      [cardImgUrl]="card.images.jpg.image_url"
+    ></app-card>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div class="container">
+  <h1>My Dashboard</h1>
+  <div class="widgets">
+    <div class="widget">
+      <div>
+        <div class="title">Schools</div>
+        <div class="value">{{ schoolsCnt }}</div>
+      </div>
+    </div>
+    <div class="widget">
+      <div>
+        <div class="title">Hospitals</div>
+        <div class="value">{{ hospitalsCnt }}</div>
+      </div>
+    </div>
+    <div class="widget">
+      <div>
+        <div class="title">Banks</div>
+        <div class="value">{{ banksCnt }}</div>
+      </div>
+    </div>
+  </div>
+  <div class="widgets">
+    <div class="spinner">
+      <div class="spinner-circle" *ngIf="isWidgetOneSpinner">
+        <mat-spinner [color]="color1"></mat-spinner>
+      </div>
+    </div>
+    <div class="spinner">
+      <div class="spinner-circle" *ngIf="isWidgetTwoSpinner">
+        <mat-spinner [color]="color2"></mat-spinner>
+      </div>
+    </div>
+    <div class="spinner">
+      <div class="spinner-circle" *ngIf="isWidgetThreeSpinner">
+        <mat-spinner [color]="color3"></mat-spinner>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<!-- Pokemon -->
+<div class="card-pokemon">
+  <div class="card" *ngFor="let card of pokemonList">
+    <app-card
+      [cardTitle]="card.title"
+      [cardImgUrl]="card.images.jpg.image_url"
+    ></app-card>
+  </div>
+</div>
