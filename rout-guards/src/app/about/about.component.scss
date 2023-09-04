@@ -1,0 +1,15 @@
+.main {
+  text-align: center;
+  font-size: 3vw;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: Verdana;
+  .center {
+    margin-top: 20px;
+    color: rgb(51, 107, 135);
+    cursor: pointer;
+  }
+}

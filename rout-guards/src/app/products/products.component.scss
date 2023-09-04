@@ -1,0 +1,14 @@
+.main {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 3vw;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  .special {
+    margin-top: 10%;
+    color: rgb(51, 107, 135);
+  }
+}

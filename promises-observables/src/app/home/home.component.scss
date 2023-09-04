@@ -1,0 +1,43 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .title {
+    position: absolute;
+    left: 0px;
+    top: 10vw;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
+  button {
+    width: 15vw;
+    height: 8vw;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+  }
+}
+.btn-promise {
+  background-color: rgb(101, 192, 101);
+  &:hover {
+    background-color: rgb(88, 160, 88);
+  }
+}
+.btn-observable {
+  background-color: rgb(101, 140, 192);
+  &:hover {
+    background-color: rgb(85, 119, 164);
+  }
+}
